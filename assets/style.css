@@ -1,0 +1,51 @@
+.jumbotron {
+    background-image: url("hero.png"); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+}
+
+.main-content {
+    padding: 50px 0;
+}
+
+.main-content h2 {
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+/* Updated styles for recommendation cards */
+.recommendation-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.recommendation-card {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recommendation-card h5 {
+    font-size: 1rem;
+}
